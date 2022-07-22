@@ -4,6 +4,34 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>Daikin.DotNetLove.General.ico</ApplicationIcon>
+    <Title>.NET (Core) General Library</Title>
+    <Description>General library items that are small in nature and limited 3rd party library dependency (lightweight dependency).</Description>
+    <Copyright>Copyright © 2022, Daikin Applied Americas Inc, All Rights Reserved</Copyright>
+    <PackageProjectUrl>https://github.com/daikinapplied/DotNetLove</PackageProjectUrl>
+    <PackageIcon>Daikin.DotNetLove.General.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/daikinapplied/DotNetLove.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>daikin dotnet .net library</PackageTags>
+    <PackageLicenseExpression>mit</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Daikin.DotNetLove.General.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Daikin.DotNetLove.General.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
